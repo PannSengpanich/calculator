@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+}
+.calculator {
+  width: 400px;
+  height: 600px;
+  border: black 1px solid;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.display {
+  width: auto;
+  height: 120px;
+  border: black 1px solid;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.line {
+  display: flex;
+}
+button {
+  margin: 4px;
+  width: 50%;
+  height: 82px;
+  font-size: 40px;
+}
