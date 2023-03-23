@@ -4,9 +4,7 @@ body {
 }
 .calculator {
   width: 400px;
-  height: 600px;
-  border: white 1px solid;
-  padding: 20px;
+  height: auto;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -15,9 +13,6 @@ body {
 .display {
   width: auto;
   height: 120px;
-  border: white 1px solid;
-  border-radius: 20px;
-  margin-bottom: 20px;
   font-size: 40px;
   background-color: #d5d5d5;
   display: flex;
@@ -36,11 +31,9 @@ body {
   display: flex;
 }
 button {
-  margin: 4px;
   width: 50%;
   height: 82px;
   font-size: 40px;
-  border-radius: 5px;
 }
 button:hover {
   background-color: rgba(255, 255, 255, 0.9);
