@@ -3,7 +3,7 @@ const numbers = document.querySelectorAll(".number");
 const operators = document.querySelectorAll(".operator");
 const calculate = document.querySelector(".calculate");
 
-// Add event listener to each number button
+//  Add event listener to each number button
 numbers.forEach((number) => {
   number.addEventListener("click", () => {
     display.value += number.innerText;
@@ -19,7 +19,3 @@ operators.forEach((operator) => {
 });
 
 // Add event listener to the calculate button
-calculate.addEventListener("click", () => {
-  const result = eval(display.value);
-  display.value = result;
-});
